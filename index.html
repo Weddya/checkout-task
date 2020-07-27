@@ -29,15 +29,15 @@
       </ul>
     </section>
     <section class="checkout__section">
-      <h2 class="checkout__section__heading">Payment method</h2>
-      <div class="tabs">
-        <ul class="tab-caption">
-          <li class="tab-caption__item js-tab-caption active" data-tab="1">Credit card</li>
-          <li class="tab-caption__item js-tab-caption" data-tab="2">Gift card</li>
-          <li class="tab-caption__item js-tab-caption" data-tab="3">PayPal</li>
-        </ul>
-         
-        <form class="form js-form" name="payment_form" method="post" action="">
+      <form class="form js-form" name="payment_form" method="post" action="">
+        <h2 class="checkout__section__heading">Payment method</h2>
+        <div class="tabs">
+          <ul class="tab-caption">
+            <li class="tab-caption__item js-tab-caption active" data-tab="1">Credit card</li>
+            <li class="tab-caption__item js-tab-caption" data-tab="2">Gift card</li>
+            <li class="tab-caption__item js-tab-caption" data-tab="3">PayPal</li>
+          </ul>
+           
           <ul class="tab-content">
             <li class="tab-content__item js-tab-content active" data-tab="1">
               <fieldset class="input-group input-group_side_left">
@@ -84,13 +84,12 @@
                 
             </li>
           </ul>
-          <div class="form__terms">
-            <label><input class="form__checkbox js-terms-checkbox" type="checkbox"> I accept the </label><span class="form__terms-popup">Terms and Conditions</span>
-          </div>
-          
-          <button type="submit" class="form__submit">Place order ( &#36;624.99 )</button>
-        </form>
-      </div>
+        </div>
+        <div class="form__terms">
+          <label><input class="form__checkbox js-terms-checkbox" type="checkbox"> I accept the </label><span class="form__terms-popup">Terms and Conditions</span>
+        </div>
+        <button type="submit" class="form__submit">Place order ( &#36;624.99 )</button>
+      </form>
     </section>
   </main>
 
